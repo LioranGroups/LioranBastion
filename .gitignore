@@ -10,6 +10,7 @@ apply_actions.py
 jest.config.js
 log.txt
 log.py
+.npmrc
 
 # Logs
 logs
