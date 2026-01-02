@@ -1,3 +1,16 @@
+# Bastion data
+bastion-data
+
+# Test data
+test
+
+# Others
+action.json
+apply_actions.py
+jest.config.js
+log.txt
+log.py
+
 # Logs
 logs
 *.log
