@@ -3,11 +3,9 @@
   "version": "0.1.6",
   "description": "Lightweight, file-based object storage for Node.js projects",
   "type": "module",
-
   "main": "./dist/cjs/index.cjs",
   "module": "./dist/esm/index.js",
   "types": "./dist/esm/index.d.ts",
-
   "exports": {
     ".": {
       "import": "./dist/esm/index.js",
@@ -22,9 +20,9 @@
       "require": "./dist/cjs/driver.cjs"
     }
   },
-
-  "files": ["dist"],
-
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "npm run build:esm && npm run build:cjs",
     "build:esm": "tsc -p tsconfig.esm.json",
@@ -33,12 +31,10 @@
     "dev": "ts-node src/server.ts",
     "postbuild": "node scripts/rename-cjs.js"
   },
-
   "repository": {
     "type": "git",
     "url": "https://github.com/LioranGroups/LioranBastion.git"
   },
-
   "keywords": [
     "file-storage",
     "object-storage",
@@ -46,22 +42,20 @@
     "typescript",
     "lioran"
   ],
-
   "author": "Swaraj Puppalwar",
   "license": "MIT",
-
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^5.2.1",
+    "form-data": "^4.0.5",
     "multer": "^2.0.2",
     "node-fetch": "^3.3.2"
   },
-
   "devDependencies": {
-    "typescript": "^5.9.3",
-    "ts-node": "^10.9.2",
+    "@types/cors": "^2.8.19",
     "@types/express": "^5.0.6",
     "@types/multer": "^2.0.0",
-    "@types/cors": "^2.8.19"
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
   }
 }
