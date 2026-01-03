@@ -45,7 +45,7 @@ console.log(data.toString());
 ### Basic Server
 
 ```ts
-import { createServer } from "@lioran/bastion/server";
+import { createServer } from "@lioran/bastion";
 import { BastionStorage } from "@lioran/bastion";
 
 const bastion = new BastionStorage({ dataDir: "./bastion-data" });
@@ -97,7 +97,7 @@ Each access key can be scoped with permissions and limits:
 Use the built-in driver to interact with Bastion over HTTP.
 
 ```ts
-import { BastionDriver } from "@lioran/bastion/driver";
+import { BastionDriver } from "@lioran/bastion";
 import fs from "fs";
 
 const bastion = new BastionDriver({
