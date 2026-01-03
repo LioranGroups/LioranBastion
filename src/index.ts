@@ -1,4 +1,4 @@
-export { BastionStorage } from "./core/storage";
-export { generateObjectId } from "./utils/id";
-export { createServer } from './server';
-export { BastionDriver } from './driver';
+export { BastionStorage } from "./core/storage.js";
+export { generateObjectId } from "./utils/id.js";
+export { createServer } from './server.js';
+export { BastionDriver } from './driver.js';

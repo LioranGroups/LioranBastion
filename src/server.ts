@@ -2,8 +2,8 @@
 import express, { Request, Response, NextFunction } from "express";
 import multer from "multer";
 import cors from "cors";
-import { BastionStorage } from "./core/storage";
-import { generateObjectId } from "./utils/id";
+import { BastionStorage } from "./core/storage.js";  
+import { generateObjectId } from "./utils/id.js";
 
 /* -------------------- TYPES -------------------- */
 

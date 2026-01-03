@@ -1,6 +1,6 @@
-import fs from "fs";
-import { BastionConfig, PutObjectResult } from "../types/storage";
-import { ensureDir, getObjectPath } from "../utils/fs";
+import * as fs from "fs";
+import { BastionConfig, PutObjectResult } from "../types/storage.js";
+import { ensureDir, getObjectPath } from "../utils/fs.js";
 
 export class BastionStorage {
   private dataDir: string;
