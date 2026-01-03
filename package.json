@@ -1,6 +1,6 @@
 {
   "name": "@lioran/bastion",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Lightweight, file-based object storage for Node.js projects",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -48,5 +48,6 @@
   },
   "devDependencies": {
     "@types/cors": "^2.8.19"
-  }
+  },
+  "type": "module"
 }
