@@ -1,6 +1,6 @@
 {
   "name": "@lioran/bastion",
-  "version": "0.1.9",
+  "version": "0.1.10",
   "description": "Lightweight, file-based object storage for Node.js projects",
   "type": "module",
   "main": "./dist/cjs/index.cjs",
