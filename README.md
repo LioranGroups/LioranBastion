@@ -60,8 +60,8 @@ const app = createServer(bastion, {
   ],
 });
 
-app.listen(295, () => {
-  console.log("Bastion server running on port 295");
+app.listen(2950, () => {
+  console.log("Bastion server running on port 2950");
 });
 ```
 
@@ -101,7 +101,7 @@ import { BastionDriver } from "@lioran/bastion";
 import fs from "fs";
 
 const bastion = new BastionDriver({
-  url: "http://localhost:295",
+  url: "http://localhost:2950",
   accessKey: "admin-key",
 });
 
